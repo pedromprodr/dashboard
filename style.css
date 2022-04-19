@@ -117,9 +117,51 @@ li{
     grid-template-rows: 1fr 1fr;
 }
 .buttons{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    padding-right: 20px;
+    display:flex;
+    align-items: flex-end;
+    gap: 22px;
+    justify-content: flex-end;
 
+}
+.announcements h3{
+    margin-top: 22px;
+    margin-left: 8px;
+}
+hr.solid {
+    border-top: 1px solid rgb(233, 233, 233);
+}
+.trending{
+    margin-top: 8px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 8px;
+    filter: drop-shadow(0.2rem 0.2rem 0.9rem rgba(0, 0, 0, 0.2));
+}
+.trending h3{
+    margin: 10px;
+}
+.tprofile{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+}
+.tprofile-pic{
+    grid-row: 1/-1;
+}
+
+.tprofile-pic img{
+    width: 60px;
+    border-radius: 60px;
+
+}
+.announcements-content{
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    filter: drop-shadow(0.2rem 0.2rem 0.9rem rgba(0, 0, 0, 0.2));
 }
 .buttons button{
     align-self: center;
@@ -128,11 +170,11 @@ li{
     color: white;
     border-radius: 20px;
     border: none;
-    font-size: large;
+    font-size: 18px;
     font-weight: bold;
     outline: none;
-    width: 70%;
-    height: 40%;
+    width: 100px;
+    height: 30%;
 }
 .greeting h3{
     margin: 0;
